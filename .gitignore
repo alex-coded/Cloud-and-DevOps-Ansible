@@ -1,0 +1,23 @@
+# Ansible-specific ignores
+*.retry
+
+# Files containing secret or sensitive data
+vault.yml
+*.vault
+
+# System-specific ignores
+.DS_Store
+*.swp
+*~
+
+# Directory-specific ignores
+bin/
+*.log
+*.pyc
+__pycache__/
+
+# IDE-specific ignores
+.idea/
+*.sublime-workspace
+.vscode/
+*.code-workspace
